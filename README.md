@@ -2,9 +2,9 @@
 
 ### Goal
 
-Our client Zava owns Zava Restaurant and needs a meal recommendation agent for their clients.
+Our client Zava owns Zava Restaurant in Toronto Ontario Canada and needs a meal recommendation agent for their clients.
 
-You have been hired to design and implement an AI agent in the form of a **web app** that recommends meals from a restaurant menu while respecting a customer’s **allergies**, **dietary restrictions**, and **preferences**. An **AI agent** (connected via **MCP**) will orchestrate search + data lookups and produce a ranked set of meal recommendations with explanations.
+You have been hired to design and implement an AI agent in the form of a **web app** that recommends meals from a restaurant menu while respecting a customer’s **allergies**, **dietary restrictions**, and **preferences**. An **AI agent** (connected via **MCP**) will orchestrate search + data lookups and produce a ranked set of meal recommendations with explanations. The client has a monthly budget of $425.00 CAD for the Azure spend. The website has a lot of pictures and images for the different menu items and ingredients. One of the things that customers love is that Zava uses only organic ingredients and they show pictures of the raw organic ingredients as well as the finished meals on the website for each meal. However, the website must load fast for customers in Toronto so we need to make sure this is prioritized in the architecture design. 
 
 #### Expecations:
 - I do not expect you to write all this code by yourself. I expect you to use GitHub Copilot, OpenAI Codex or Claude Code to implement it by telling it what to do.
