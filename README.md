@@ -1,8 +1,10 @@
-## Challenge: Build a Meal-Recommendation AI Agent with MCP
+## Challenge: Build a Zava Resturant Meal-Recommendation AI Agent with MCP
 
 ### Goal
 
-You will build a **web app** that recommends meals from a restaurant menu while respecting a customer’s **allergies**, **dietary restrictions**, and **preferences**. An **AI agent** (connected via **MCP**) will orchestrate search + data lookups and produce a ranked set of meal recommendations with explanations.
+Our client Zava owns Zava Restaurant and needs a meal recommendation agent for their clients.
+
+You have been hired to design and implement an AI agent in the form of a **web app** that recommends meals from a restaurant menu while respecting a customer’s **allergies**, **dietary restrictions**, and **preferences**. An **AI agent** (connected via **MCP**) will orchestrate search + data lookups and produce a ranked set of meal recommendations with explanations.
 
 #### Expecations:
 - I do not expect you to write all this code by yourself. I expect you to use GitHub Copilot, OpenAI Codex or Claude Code to implement it by telling it what to do.
