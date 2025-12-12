@@ -90,16 +90,17 @@ Build an application that:
 ```mermaid
 flowchart LR
   U[Customer] --> UI[Angular v21 Web App]
-  UI -->|HTTPS JSON| AF[Azure Function API\nPython 3.13]
+  UI -->|HTTPS JSON| AF[Azure Function API<br/>Python 3.13]
 
-  AF -->|MCP Client Calls| MCP[FastMCP Server\nTools + Agent Runtime]
+  AF -->|MCP Client Calls| MCP[FastMCP Server<br/>Tools + Agent Runtime]
 
-  MCP -->|Search candidates| AIS[Azure AI Search\n(Menu Index)]
-  MCP -->|Fetch authoritative menu/nutrition| SQL[Azure SQL Database\n(Menu Tables)]
-  MCP -->|Read/Write profiles & sessions| COS[Azure Cosmos DB\n(Profiles, Sessions, Feedback)]
+  MCP -->|Search candidates| AIS[Azure AI Search<br/>Menu Index]
+  MCP -->|Fetch authoritative menu and nutrition| SQL[Azure SQL Database<br/>Menu Tables]
+  MCP -->|Read and write profiles and sessions| COS[Azure Cosmos DB<br/>Profiles, Sessions, Feedback]
 
-  MCP -->|Ranked recommendations + rationale| AF
+  MCP -->|Ranked recommendations and rationale| AF
   AF --> UI
+
 ```
 
 ---
