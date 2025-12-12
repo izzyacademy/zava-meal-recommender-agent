@@ -4,12 +4,19 @@
 
 You will build a **web app** that recommends meals from a restaurant menu while respecting a customer’s **allergies**, **dietary restrictions**, and **preferences**. An **AI agent** (connected via **MCP**) will orchestrate search + data lookups and produce a ranked set of meal recommendations with explanations.
 
-Tech stack:
+#### Expecations:
+- I do not expect you to write all this code by yourself. I expect you to use GitHub Copilot, OpenAI Codex or Claude Code to implement it by telling it what to do.
+- I expect to see a finalized requirements document as well as the architecture diagram first for us to discuss and set the expectations. The current architecture is a draft and has some problems we need to discuss and fix.
+- Then once the requirements and architecture are finalized, then you can use the AI agents to create the app that works.
+
+
+#### Tech stack:
 
 * **Frontend:** Angular **v21**
 * **Backend:** **Azure Functions** (Python **3.13**)
 * **Data stores:** **Azure AI Search**, **Azure Cosmos DB**, **Azure SQL Database**
 * **MCP server:** **FastMCP** Python SDK
+
 
 ---
 
