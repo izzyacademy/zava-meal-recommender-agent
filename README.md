@@ -269,6 +269,16 @@ Deliver a working app that supports:
 
 ## Deliverables (what you should submit)
 
+### Part 1: Project Requirements
+
+I expect to see a requirements document the explains all the requirements and how the app needs to behave
+
+### Part 2: Architecture Diagram
+
+I expect to see an architecture diagram that describes all the archictural components and why they are relevant
+
+### Part 3: POC Implementation
+
 * A short README describing:
   * What the app does
   * How MCP is used (tools + agent flow)
