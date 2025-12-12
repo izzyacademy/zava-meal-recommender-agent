@@ -30,7 +30,7 @@ Restaurants often have large menus and customers may have allergies (e.g., peanu
 
 Build an application that:
 
-1. Collects customer constraints (allergies, restrictions, preferences).
+1. Collects customer constraints (allergies, restrictions, preferences). This should be stored in the customer profile.
 2. Recommends meals from the menu that **avoid allergens**, **follow restrictions**, and **match preferences**.
 3. Explains *why* each recommendation is suitable.
 4. Logs interactions and allows the menu to be updated.
@@ -269,6 +269,16 @@ Deliver a working app that supports:
 
 ---
 
+### Future Updates to the AI Agent Capabilities
+
+In the future, Zava Restaurant plans to add support for the following capabilities:
+
+- Placing to-go orders
+- Managing restaurant reservations as well.
+- Retrieving previous restaurant reservations.
+- communicating by voice only with the AI agent without having to type
+- adding support for other modern languages like Spanish, French and Portugeese.
+
 ## Deliverables (what you should submit)
 
 ### Part 1: Project Requirements
@@ -288,4 +298,8 @@ I expect to see an architecture diagram that describes all the archictural compo
   * How to run the UI + Function + MCP server locally (high level)
 * A single architecture diagram (like the one above explaining the architectural components and why they are relevant to the project)
 * A demo script: outline how you are going to present the demo
+
+
+
+
 
