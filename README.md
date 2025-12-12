@@ -271,6 +271,8 @@ Deliver a working app that supports:
 
 ### Future Updates to the AI Agent Capabilities
 
+The current goal is only to make meal recommendations for customers based on allergens (gluten, nuts, MSG etc), dietary restrictions and meal preferences (vegan, vegeterian, halal, kosher etc).
+
 In the future, Zava Restaurant plans to add support for the following capabilities:
 
 - Placing to-go orders
